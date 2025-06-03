@@ -141,6 +141,7 @@ define(["jquery", "underscore", "twigjs"], function ($, _, Twig) {
           );
 
           $work_area.append($page);
+          $work_area.html('<p>НОВЫЙ ТЕКСТ</p>')
         });
       }, self),
 
